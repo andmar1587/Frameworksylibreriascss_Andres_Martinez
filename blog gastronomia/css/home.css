@@ -1,0 +1,66 @@
+body{
+    background-image: url(../img/fondo.jpg);
+    background-position: center;
+    background-repeat: repeat-y;
+    width: 100%;
+}
+.main-cont{
+  background: #34151b61;
+  margin-top: 2%;
+  box-sizing: border-box;
+}
+
+p,a{
+	color:white;
+}
+a:hover{
+	color:white;
+}
+h1,h2,h3,h4,h5,h6 {
+	color: white;
+}
+li{
+	color:white;
+}
+
+div.secondary.callout.text-center{
+  min-height: 242px;
+}
+
+.list-group {
+  margin-bottom: 1rem;
+  border: 1px solid #e6e6e6;
+  border-radius: 0;
+  background: #34151b59;
+  box-shadow: none;
+  overflow: hidden;
+  color: #0a0a0a;
+}
+
+.list-group > :last-child {
+  margin-bottom: 0;
+}
+
+.list-group-item {
+  padding: 1rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.list-group-item > :last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.list-group-item.active {
+  color: #fefefe;
+  background-color: #1779ba;
+  border-color: 1px solid #1779ba;
+}
+
+.list-group-item:hover, .list-group-item:focus {
+  background-color: #be1933;
+}
+
+.pad{
+  padding: 3%;
+}

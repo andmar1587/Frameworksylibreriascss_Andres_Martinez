@@ -1,0 +1,46 @@
+/* Clase para darle estilos al body */
+.blog-body {
+  background: #D0D0D0;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.navbar-nav{
+  width: 100%;
+  text-align:center;
+}
+.logo-img{
+  max-height: 100px;
+}
+.social-net{
+  height: 100px;
+}
+.img-social{
+  max-height: 40px;
+  margin: 10% auto;
+}
+.post-container{
+  height: 200px;
+}
+.img-post{
+  width: 100%;
+  margin: 3% auto;
+}
+.img-comment{
+  width: 90%;
+  max-width: 90px;
+  margin-left: 30%;
+}
+.bg-post{
+  padding: 2%;
+  box-sizing: border-box;
+}
+.prueba{
+  border: 2px solid white;
+  
+}
+.searchoptions{
+  margin-top:5%;
+}
